@@ -1,4 +1,4 @@
-            elif current_state == GAME_OVER:
+ elif current_state == GAME_OVER:
                 if event.key in [pygame.K_DOWN, pygame.K_s]:
                     game_over_selection = (game_over_selection + 1) % 4
                 elif event.key in [pygame.K_UP, pygame.K_w]:
