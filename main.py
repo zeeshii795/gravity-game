@@ -790,4 +790,4 @@ while True:
                 elif event.key == pygame.K_ESCAPE:
                     current_state = MENU
             
-            elif current_state == GAME
+            elif current_state == GAME:
